@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // Using Var Variable.....................
+
+        //    var name="mudassir" ;
+        //    var surname="mohammed" ;
+        //    var address="degloor naka nanded" ;
+        //    console.log(name)
+        //    console.log(surname)
+        //    console.log(address)
+
+
+        //    a=5
+        //    b=20
+        //    console.log(a+b)
+
+        //    let name="mudassir" ;
+        //    let surname="mohammed" ;
+        //    let address="degloor naka nanded" ;
+        //    console.log(name)
+        //    console.log(surname)
+        //    console.log(address)
+
+
+        // Use of Function.................................................................................
+
+        // function info(n1,n2,n3){
+        //     let c=n1+n2+n3;
+        //     console.log(c);
+
+
+        // info(10,20,30);
+
+
+        // function add(x, y, z) {
+        //     let c = x + y + z;
+        //     return c;
+        // }
+        // let p = add(20,30,40)
+        // document.write(p)
+
+        // function abcd(x,y,z){
+        // let c=x+y+z;
+        // return c;
+        // }
+        // let p=abcd(2,5,3)
+        // document.write(p)
+
+
+
+        // function add(x, y) {
+        //     let c = x + y ;
+        //     return c;
+        // }
+        // let p = add(20,30);
+        // let q = add(54,10);
+        // let r = add(28,33);
+        // let s = add(23,45);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        // function sub( a,b,c){
+        //     let d=a-b-c;
+        //     return d;
+        // }
+        // let p = sub(20,30,14);
+        // let q = sub(54,10,52);
+        // let r = sub(28,33,48);
+        // let s = sub(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+
+        // function mul( a,b,c){
+        //     let d=a*b*c;
+        //     return d;
+        // }
+        // let p = mul(20,30,14);
+        // let q = mul(54,10,52);
+        // let r = mul(28,33,48);
+        // let s = mul(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+
+        // function divi( a,b,c){
+        //     let d=a/b/c;
+        //     return d;
+        // }
+        // let p = divi(20,30,14);
+        // let q = divi(54,10,52);
+        // let r = divi(28,33,48);
+        // let s = divi(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+        //   Aisa bhi likh sakte (const).......................................
+
+        // const add =function( a,b,c){
+        //     let d=a+b+c;
+        //     return d;
+        // }
+        // let p = add(20,30,14);
+        // let q = add(54,10,52);
+        // let r = add(28,33,48);
+        // let s = add(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        // add = function (m1, m2, m3) {
+        //     var m = m1 + m2+ m3;
+        //     return m
+        // }
+        // console.log(add(5,6,7));
+
+
+
+
+        // const sub =function( a,b,c){
+        //     let d=a-b-c;
+        //     return d;
+        // }
+        // let p = sub(20,30,14);
+        // let q = sub(54,10,52);
+        // let r = sub(28,33,48);
+        // let s = sub(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+        // const mul =function( a,b,c){
+        //     let d=a*b*c;
+        //     return d;
+        // }
+        // let p = mul(20,30,14);
+        // let q = mul(54,10,52);
+        // let r = mul(28,33,48);
+        // let s = mul(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        // const divi =function( a,b,c){
+        //     let d=a/b/c;
+        //     return d;
+        // }
+        // let p = divi(20,30,14);
+        // let q = divi(54,10,52);
+        // let r = divi(28,33,48);
+        // let s = divi(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        // const mod =function( a,b,c){
+        //     let d=a%b%c;
+        //     return d;
+        // }
+        // let p = mod(20,30,14);
+        // let q = mod(54,10,52);
+        // let r = mod(28,33,48);
+        // let s = mod(23,45,98);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+        //   Aisa bhi likh sakte (=>)................................................
+
+        // add =( a,b)=>{
+        //     let d=a+b
+        //     return d;
+        // }
+        // let p = add(20,30);
+        // let q = add(54,10);
+        // let r = add(28,33);
+        // let s = add(23,45);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        add = (x, u) => {
+            var d = x + u;
+            return d;
+        }
+        document.write(add(10, 6))
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // sub = (a, b) => {
+        //     let d = a - b;
+        //     return d;
+        // }
+        // let p = sub(20, 30);
+        // let q = sub(54, 10);
+        // let r = sub(28, 33);
+        // let s = sub(23, 45);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+
+        // mul= (a,b)=>{
+        //     let d=a*b;
+        //     return d;
+        // }
+        // let p = mul(20,30);
+        // let q = mul(54,10);
+        // let r = mul(28,33);
+        // let s = mul(23,45);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        // divi= (a,b)=>{
+        //     let d=a/b;
+        //     return d;
+        // }
+        // let p = divi(20,30);
+        // let q = divi(54,10);
+        // let r = divi(28,33);
+        // let s = divi(23,45);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+        // mod= (a,b)=>{
+        //     let d=a%b;
+        //     return d;
+        // }
+        // let p = mod(20,30);
+        // let q = mod(54,10);
+        // let r = mod(28,33);
+        // let s = mod(23,45);
+
+        // document.write(p);
+        // document.write(q);
+        // document.write(r);
+        // document.write(s);
+
+
+
+
+
+
+
+        // function add(x,y,p,q){
+        //     let z=(x+y+p+q);
+        //     return z;
+        // }
+        // let a=add(20,25,80,45);
+        // document.write(a);
+
+
+
+    </script>
+
+
+
+    <!-- assignment................................................................................................................ -->
+
+    <!-- <script>
+        <!-- 1) Write a function to find given number is even. -->
+
+    function even(num) {
+    if (num % 2 == 0) {
+    return "number is even"
+    }
+    else
+    return "number is not even"
+    }
+    console.log(even(20));
+
+    </script> -->
+
+
+    <!-- 2) Write a function to find given number is odd. -->
+
+    <!-- <script>
+        function odd(num) {
+            if (num % 2 != 0) {
+                return "number is odd"
+            }
+            else
+            return "number is even"
+        }
+        console.log(odd(20));
+
+    </script> -->
+
+
+    <!-- 3) Write a function to find out of 3 number which is greatest -->
+
+    <!-- <script>
+        function abcd(n1, n2, n3) {
+            if (n1 > n2 && n1 > n3) {
+                return "n1 is greater"
+            }
+            else if (n2 > n1 && n2 > n3) {
+                return "n2 is greater"
+            }
+            else if (n3 > n2 && n3 > n1)
+                return "n3 is greater"
+        }
+        console.log(abcd(100, 50, 40));
+    </script> -->
+
+
+
+
+
+    <!-- 4) Write a function to find out of 3 number which is smallest -->
+
+    <!-- <script>
+        function abcd(n1, n2, n3) {
+            if (n1 < n2 && n1 < n3) {
+                return "n1 is smaller"
+            }
+            else if (n2 < n1 && n2 < n3) {
+                return "n2 is smaller"
+            }
+            else if (n3 < n2 && n3 < n1)
+                return "n3 is smaller"
+        }
+        console.log(abcd(10, 5, 4));
+    </script> -->
+
+
+
+    <!-- 5) Write a function to find square of given number -->
+
+
+    <!-- <script>
+        function square(a){
+            return a*a;
+        }
+        console.log(square(3))
+    </script> -->
+
+
+
+    <!-- 6) Write a function to find area of circle -->
+
+    <!-- <script>
+        function circle(radius){
+            return 3.142*radius*radius;    
+        }
+        console.log(circle(20))
+    </script> -->
+
+
+    <!-- 7) Write a function which take first name and last name as argument and return full name -->
+
+    <!-- <script>
+        function fullname(fname,lname){
+            return fname+" "+lname;
+        }
+        console.log(fullname("Mohammed","Mudassir"))
+    </script> -->
+
+
+    <!-- 8) Write a function to find given number is prime or not -->
+
+    <!-- <script>
+        function test_prime(n) {
+            if (n === 1) {
+                return false;
+            }
+            else if (n === 2) {
+                return true;
+            } else {
+                for (var x = 2; x < n; x++)
+                {
+                    if (n % x === 0) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+        console.log(test_prime(2));
+    </script> -->
+
+
+
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
